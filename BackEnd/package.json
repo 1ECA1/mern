@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "kill-port 5001 && nodemon src/server.js",
+    "build": "kill-port 5001 && nodemon src/server.js",
     "start": "node src/server.js"
   },
   "keywords": [],
